@@ -1,11 +1,16 @@
-package Serialiazation;
+package SerilizatioandDeserialiaztion;
 
 import java.io.Serializable;
 
 public class User implements Serializable {
+
     String name;
-    String Password;
+    String password;
     public void SayHello(){
-        System.out.println(name +"Hello");
+        System.out.println( "Hello "+ name);
+
     }
+
+
 }
+
